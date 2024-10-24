@@ -1,0 +1,25 @@
+Problem 1
+1.	pwd
+2.	ls ~/music/
+3.	nano ~/music/patterns.txt
+4.	cat ~/music/patterns.txt\
+5.	diff ~/music/patterns.txt ~/music/symmetry.py
+6.	mv ~/music/patterns.txt ~/math/calculus/
+7.	rm ~/math/geometry/triangle.txt
+8.	cd ../math
+9.	git init
+10.	git remote add origin [name]
+11.	cp ~/music/symmetry.txt ~/math/
+12.	git status, it’s not tracked until I commit it.
+13.	git add symmetry.txt; git add .
+14.	git reset symmetry.txt; git restore --staged <file>
+15.	git commit -m "added symmetry"
+16.	git push origin main; because there is only one branch
+17.	git branch applied-math
+18.	git checkout applied-math
+19.	mkdir physics echo "Fun facts" > physics/mechanics.txt; git add .; git commit; git push. If not push first, it’s lost
+20.	git add . git commit -m "Added physics and mechanics.txt" git push origin applied-math
+21.	git branch
+22.	git checkout main
+23.	git checkout main git merge applied-math
+
